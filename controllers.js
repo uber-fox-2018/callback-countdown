@@ -6,7 +6,6 @@ const timer = seconds => {
     seconds--
     displayCountdown(seconds);
     if (seconds === 0) {
-      // console.log("HAPPY CODING!!");
       clearInterval(countDown);
     }
   }, 1000);
@@ -14,4 +13,3 @@ const timer = seconds => {
 module.exports = {
   timer
 };
-
