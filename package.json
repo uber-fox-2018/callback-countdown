@@ -5,8 +5,23 @@
   "author": "Riza Fahmi <rizafahmi@gmail.com> (https://rizafahmi.com/)",
   "license": "MIT",
   "dependencies": {
-    "chalk": "2.3.1",
+    "chalk": "^2.3.1",
     "clear": "0.0.1",
-    "figlet": "1.2.0"
-  }
+    "figlet": "^1.2.0"
+  },
+  "description": "countdown console",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uber-fox-2018/callback-countdown.git"
+  },
+  "keywords": [
+    "countdown"
+  ],
+  "bugs": {
+    "url": "https://github.com/uber-fox-2018/callback-countdown/issues"
+  },
+  "homepage": "https://github.com/uber-fox-2018/callback-countdown#readme"
 }
