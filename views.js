@@ -7,7 +7,7 @@ const displayCountdown = seconds => {
 
   console.log(chalk.cyan(figlet.textSync("Countdown App")));
   console.log(chalk.green(figlet.textSync("Khodhi")));
-  console.log(chalk.green(figlet.textSync("______")));
+  console.log(chalk.green(figlet.textSync(seconds)));
   console.log(chalk.red(figlet.textSync(myTimer())));
   console.log(chalk.green(figlet.textSync("------")));
   
