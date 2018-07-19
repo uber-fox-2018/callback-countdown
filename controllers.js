@@ -1,9 +1,12 @@
-const { displayCountdown } = require("./views");
+const  displayCountdown  = require("./views");
 
 const timer = seconds => {
-  // Your code here...
+  setInterval(function(){displayCountdown.displayCountdown(1); }, 1000);
+  
 };
 
 module.exports = {
   timer
 };
+
+//setInterval(function(){ alert("Hello"); }, 3000);
