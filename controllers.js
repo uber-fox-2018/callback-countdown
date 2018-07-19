@@ -10,7 +10,7 @@ const timer = seconds => {
       display += `0`+hour+ ` `
     }else {
       display += hour + ` `
-    }
+    } 
 
     if (second < 10) {
       display += `: 0`+second + ` `
